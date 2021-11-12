@@ -1,0 +1,101 @@
+body {
+  padding-top: 4.6rem;
+  background-image: url('images/back2.jpg');
+  background-position: top;
+  background-attachment: fixed;
+}
+.bg-custom{
+  background-color: rgba(20,20,20,0.900);
+}
+.bg-black{
+  background-color: rgb(10, 10, 10);
+}
+.navbar-nav .dropdown-menu{
+  background-color: rgba(20,20,20,0.900);
+  
+}
+.navbar-nav .dropdown-menu .dropdown-item{
+  background-color: #00000000;
+  color:#6c757d;
+}
+.navbar-nav .dropdown-menu .dropdown-item:hover{
+  
+  color: #f8f9fa;
+}
+.bg-listCont{
+  background-color: rgba(30,30,30,0.900);
+}
+.dark{
+  color: aqua !important;
+  background-color: aquamarine !important;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+.carousel-item img{
+  width: 100%;
+  height: 100%;
+}
+.carousel-caption{
+  top: 20%;
+  position: relative;
+}
+.carousel-caption .my-shadow{
+  text-shadow: 3px 3px 2px black;
+}
+.carousel-caption p a{
+  background-color: #00000000;
+  border: 0.1rem solid white;
+}
+.carousel-caption p a:hover{
+  background-color: white;
+  color: black;
+  border: 0.1rem solid #343a40;
+}
+
+/*using the shadow class for resizeing carousel*/
+
+@media(max-width:768px){
+  .carousel-caption{
+    top: 15%;
+  }
+  .carousel-indicators li{
+    visibility: hidden;
+  }
+  .carousel-caption h1,h2{
+    font-size:2rem
+  }
+  .carousel-caption .btn-lg{
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+  }
+  .carousel-caption p{
+    font-size: 0.8rem
+  }
+  .my_padding{
+    font-size: 1.75rem
+  }
+}
+@media(max-width:576px){
+  .carousel-caption{
+    top: 10%;
+  }
+  .carousel-indicators li{
+    visibility: hidden;
+  }
+  .carousel-caption h1,h2{
+    font-size:1.5rem;
+  }
+  .carousel-caption .btn-lg{
+    padding: 0.25rem 0.5rem;
+    font-size: 0.655rem;
+  }
+  .carousel-caption p{
+    font-size: 0.7rem
+  }
+  .my_padding{
+    font-size: 1.3rem
+  }
+
+}

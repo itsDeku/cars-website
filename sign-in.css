@@ -1,0 +1,65 @@
+body{
+    background-color: royalblue !important ;
+    background-image: linear-gradient(#5f0a87,#a45088);
+}
+.top{
+    height: 20%;
+}
+.sign-in{
+    width: 350px;
+    height: 400px;
+    background-color: #EDE7F6cf;
+    margin: 0px auto;
+    top: 45;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+}
+hr{
+    margin-top: 1rem; 
+    width: 80%;
+    border: 1px solid rgb(150,150,150);   
+}
+.sign-in span{
+    margin-top: 8%;
+    font-size: 130%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sign-in span center{
+    font-size: 2rem;
+    color: rgb(30,30,30);
+    position: relative;
+    top:5;
+    margin-top: 0%
+}
+
+.user-email-form{
+    margin: 0 auto;
+    margin-top: 10%;
+    width: 80% 
+}
+.user-email-form form label{
+    color:rgb(30,30,30);
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+.user-email-form form input{
+    margin-top: 5%;
+    width: 100%;
+    height: 2.5rem;
+    border: 1px solid rgb(80,80,80);
+    border-radius: 1px;
+    font-size: 1.3rem;
+}
+.submit_button{
+    color: #EDE7F6cf;
+    margin-left: 35% !important;
+    width: 25% !important; 
+    background-color: #5f0a87;
+    border-radius: 5px !important;  
+    border: 1px solid rgb(50, 50, 50) !important; 
+
+}
+.submit_button:hover{
+    background-color: #a45088;
+}

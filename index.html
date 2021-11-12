@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="starter-template.css">
+  <link rel="stylesheet" href="../dist/css/bootstrap.min.css">
+  <title>cars.com</title>
+</head>
+<body>      
+    <nav class="navbar navbar-expand-md navbar-dark bg-custom fixed-top">
+    <a href="#" class="navbar-brand"><img src="img/logo.png"></a>  
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navResponsive"><span class="navbar-toggler-icon"></span></button> 
+    <div class="collapse navbar-collapse" id="navResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Register</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="dropdown01">Dropdown</a>
+          <div class="dropdown-menu" >
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Someting</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+      </form>
+  </div>
+  </nav>
+  <main role="main">
+    <div class="carousel slide" data-ride="carousel" id="my_carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#my_carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#my_carousel" data-slide-to="1"></li>
+            <li data-target="#my_carousel" data-slide-to="2"></li>
+          </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="first-slide" src="images/1-copy.jpg" alt="first-slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1 class="my-shadow">Welcome</h1>
+              <p class="my-shadow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto voluptas tenetur impedit quam id aspernatur fugiat veniam veritatis cum omnis.</p>
+              <p><a class="btn btn-lg btn-primary" role="button" href="#">click </menu></a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="second-slide" src="images/2-copy.jpg" alt="second-slide">
+          <div class="container ">
+            <div class="carousel-caption">
+              <h1 class="my-shadow">What We Provide</h1>
+              <p class="my-shadow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos atque ea alias nisi at praesentium vero dolore repudiandae.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <img class="third-slide" src="images/3-copy.jpg" alt="third-slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1 class="my-shadow">Register Now</h1>
+              <p class="my-shadow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, quod. Quis optio commodi fugit molestiae.</p>
+              <p><a href="#" class="btn btn-lg btn-primary">Register</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#my_carousel" class="carousel-control-prev" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a href="#my_carousel" class="carousel-control-next" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+    <!--fixed text-->
+    <div class="container-fluid px-0">
+      <div class="jumbotron bg-secondary my-0 py-3">
+        <h2 class="text-light my-0 my_padding">Lorem, ipsum dolor sit amet </h2>
+      </div>
+    </div>
+    
+    <div class="fixed-back" style="height:250px;"></div>
+    <div class="jumbotron bg-secondary my-0 py-3">
+      <h2 class="text-light my-0 my_padding">harum perspiciatis.</h2>
+    </div>
+    <div class="container-fluid bg-listCont px-0 pt-4">
+      <div class="jumbotron mx-0 py-2 px-3 bg-secondary text-white-50">
+        <div class="row py-0">
+          <div class="col-sm-12 col-md-8 col-lg-8">
+            <h1 class="text-body">Lyken Hypersport</h1>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci at, qui inventore eveniet blanditiis quod rem ex harum ab corrupti. Doloremque odio corrupti assumenda officia sed aspernatur iste veritatis enim?</p>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4 "><img class="rounded border" src="images/lykan_hypersport.jpg" style="width:100%;height:100%"></div>
+        </div>
+      </div>
+      <div class="jumbotron mx-0 py-2 px-3 bg-secondary text-white-50">
+        <div class="row py-0">
+          <div class="col-sm-12 col-md-4 col-lg-4 order-2 order-md-1"><img class="rounded border" src="images/lamborghini_aventador.jpg" style="width:100%;height:100%"></div>
+          <div class="col-sm-12 col-md-8 col-lg-8 order-1 order-md-2">
+            <h1 class="text-body">Lamborghine Aventador</h1>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci at, qui inventore eveniet blanditiis quod rem ex harum ab corrupti. Doloremque odio corrupti assumenda officia sed aspernatur iste veritatis enim?</p>
+          </div>
+        </div>
+      </div>
+      <div class="jumbotron mx-0 py-2 px-3 bg-secondary text-white-50">
+        <div class="row py-0">
+          <div class="col-sm-12 col-md-8 col-lg-8">
+            <h1 class="text-body">keonigsegg Regera</h1>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci at, qui inventore eveniet blanditiis quod rem ex harum ab corrupti. Doloremque odio corrupti assumenda officia sed aspernatur iste veritatis enim?</p>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4 "><img class="rounded border" src="images/koenigsegg_regera.jpg" style="width:100%;height:100%"></div>
+        </div>
+      </div>
+      <div class="jumbotron mx-0 py-2 px-3 bg-secondary text-white-50">
+        <div class="row py-0">
+          <div class="col-sm-12 col-md-4 col-lg-4 order-2 order-md-1"><img class="rounded border" src="images/aston_martin.jpg" style="width:100%;height:100%"></div>
+          <div class="col-sm-12 col-md-8 col-lg-8 order-1 order-md-2">
+            <h1 class="text-body">Aston Martin</h1>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci at, qui inventore eveniet blanditiis quod rem ex harum ab corrupti. Doloremque odio corrupti assumenda officia sed aspernatur iste veritatis enim?</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="jumbotron bg-secondary my-0 pb-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-md-3 col-lg-3">
+            <div class="container">
+              <img src="icons/youtube.png" style="width: 75px; height: 75px;">
+              <a href="#"><pre class="h4 text-light pb-4">youtube</pre></a>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 col-lg-3">
+            <div class="container">
+              <img src="icons/instagram.png" style="width: 75px; height: 75px;">
+              <a href="#"><pre class="h4 text-light pb-4">instagram</pre></a>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 col-lg-3">
+            <div class="container">
+              <img src="icons/twitter.png" style="width: 75px; height: 75px;">
+              <a href="#"><pre class="h4 text-light pb-4">twitter</pre></a>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 col-lg-3">
+            <div class="container">
+              <img src="icons/whatsapp.png" style="width: 75px; height: 75px;">
+              <a href="#"><pre class="h4 text-light pb-4">whatsapp</pre></a>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <footer class="page-footer font-small bg-black">
+    <div class="footer-copyright text-center text-white-50 py-3">&COPY; 2019 Copyright:
+    </div>
+  </footer>
+    
+  </main>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+  <script src="../assets/js/vendor/popper.min.js"></script>
+  <script src="../dist/js/bootstrap.min.js"></script>
+</body>
+</html>
